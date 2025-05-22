@@ -3,7 +3,8 @@
 export default function NewGameButton({ onReset }) {
   return (
     <button
-      onClick={onReset}
+      onClick={(onReset)}
+      
       className="new-game-button"
       data-testid="newGameButton"
     >
